@@ -29,6 +29,6 @@ public class HasQuarterState implements State {
     }
  
 	public String toString() {
-		return "waiting for turn of crank";
+		return "Waiting for turn of crank";
 	}
 }
