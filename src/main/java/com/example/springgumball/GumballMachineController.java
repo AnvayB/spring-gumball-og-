@@ -88,7 +88,7 @@ public class GumballMachineController {
             host_name = ip.getHostName() ;
   
         } catch (Exception e) { }
-  
+     
         model.addAttribute( "session", session_id ) ;
         model.addAttribute( "message", message ) ;
         model.addAttribute( "server",  host_name + "/" + server_ip ) ;
